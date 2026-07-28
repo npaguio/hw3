@@ -1,7 +1,0 @@
-:root{
-    background-color:wheat;
-    --font-group: Georgia, Arial;
-    --color-dark: rgb(68, 50, 16);
-    --color-cheese: rgb(240, 157, 80);
-    font-size: 4rem;
-}
