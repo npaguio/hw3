@@ -1,0 +1,66 @@
+@import "cheese2.css";
+/* link is still preferred in production since it provides a separate style sheet which can provide a different look for another format, like paper or phones */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font-group);
+    color: var(--color-dark);
+    line-height: 10px;
+}
+
+p[lang="en"]{ 
+    font-style: Georgia;
+}
+
+article #intro p{
+    font-size:50%;
+}
+h4[type="text"]{
+    font-style: italic;
+}
+
+dd dt{
+    margin-left: 3em; color: rgb(204, 179, 110);
+}
+
+.latin{
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+#warning{
+    background-color: var(--color-cheese);
+    margin: 2em; color: var(--color-dark);
+}
+
+#quote{
+    background-color: gold;
+    margin-left: 3em; color: goldenrod;
+}
+
+a:hover{
+    background-color:yellow;
+}
+
+button:focus{
+    outline: 1.5px;
+}
+
+input:focus{
+    outline: 1.5px;
+}
+
+a:focus{
+    outline: 1.5px;
+}
+
+input[type="checkbox"] + label:checked{
+    background-color: greenyellow;
+}
+
+dt::before{
+    list-style-image:url(cheese.png);
+}
